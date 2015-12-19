@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="lblMortgagePayment" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="29.0" layoutY="59.0" text="Income" />
+      <Label layoutX="29.0" layoutY="140.0" text="Expenses" />
+      <Label layoutX="27.0" layoutY="225.0" text="Credit Score" />
+      <Label layoutX="29.0" layoutY="311.0" text="House Cost" />
+      <TextField id="txtIncome" fx:id="txtIncome" layoutX="27.0" layoutY="86.0" />
+      <TextField id="txtExpenses" fx:id="txtExpenses" layoutX="27.0" layoutY="175.0" />
+      <TextField id="txtCreditScore" fx:id="txtCreditScore" layoutX="27.0" layoutY="264.0" />
+      <TextField id="txtHouseCost" fx:id="txtHouseCost" layoutX="27.0" layoutY="345.0" />
+      <Label id="cmbTerm" layoutX="300.0" layoutY="59.0" text="Term" />
+      <Button id="btnCalculate" fx:id="btnCalculate" layoutX="450.0" layoutY="330.0" mnemonicParsing="false" onAction=#onCalculate prefHeight="40.0" prefWidth="91.0" text="Calculate" />
+      <ComboBox id="cmbTerm" fx:id="cmbTerm" layoutX="300.0" layoutY="99.0" prefWidth="150.0" />
+      
+   </children>
+</AnchorPane>
